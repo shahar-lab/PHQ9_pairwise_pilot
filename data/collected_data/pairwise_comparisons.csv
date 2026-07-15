@@ -1,0 +1,11 @@
+participant_id,item_a,item_b,preference,confidence
+1,q1_sleep,q2_depression,q1_sleep,0.8
+2,q3_fatigue,q4_appetite,q3_fatigue,0.6
+3,q5_selfworth,q6_concentration,q5_selfworth,0.9
+4,q7_movement,q8_suicidal,q7_movement,0.7
+5,q1_sleep,q9_impairment,q9_impairment,0.5
+6,q2_depression,q3_fatigue,q3_fatigue,0.8
+7,q4_appetite,q5_selfworth,q5_selfworth,0.85
+8,q6_concentration,q7_movement,q6_concentration,0.7
+9,q8_suicidal,q9_impairment,q9_impairment,0.95
+10,q1_sleep,q4_appetite,q1_sleep,0.65
