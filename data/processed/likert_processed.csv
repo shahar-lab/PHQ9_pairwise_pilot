@@ -1,0 +1,65 @@
+participant_id,trial,item,likert_response,likert_response_lable,rt,window_status,item_phq_number,item_phq_text
+75y1tqf2,1,9,0,Not at all,4344,ok,6a,Feeling bad about yourself
+75y1tqf2,2,8,0,Not at all,6085,ok,5b,Overeating
+75y1tqf2,3,5,0,Not at all,4010,ok,3b,Sleeping too much
+75y1tqf2,4,7,0,Not at all,3913,ok,5a,Poor appetite
+75y1tqf2,5,4,0,Not at all,6270,ok,3a,Trouble falling or staying asleep
+75y1tqf2,6,12,0,Not at all,7790,ok,6d,Feeling that you have let your family down
+75y1tqf2,7,1,0,Not at all,4732,ok,1,Little interest or pleasure in doing things
+75y1tqf2,8,13,0,Not at all,4370,ok,7,Trouble concentrating
+75y1tqf2,9,6,0,Not at all,4358,ok,4,Feeling tired or having little energy
+75y1tqf2,10,10,0,Not at all,5955,ok,6b,Feeling that you are a failure
+75y1tqf2,11,14,0,Not at all,4447,ok,8a,Moving or speaking slowly
+75y1tqf2,12,3,0,Not at all,4355,ok,2b,Feeling hopeless
+75y1tqf2,13,2,0,Not at all,4951,ok,2a,Feeling down or depressed
+75y1tqf2,14,11,0,Not at all,4736,ok,6c,Feeling that you have let yourself down
+75y1tqf2,15,15,0,Not at all,3761,ok,8b,Fidgety or restless
+75y1tqf2,16,16,0,Not at all,4253,ok,attn_check,I participated in the Olympic Games of 1974.
+7v1pxg3v,1,9,1,Several days,4753,ok,6a,Feeling bad about yourself
+7v1pxg3v,2,1,1,Several days,3954,ok,1,Little interest or pleasure in doing things
+7v1pxg3v,3,5,0,Not at all,7016,ok,3b,Sleeping too much
+7v1pxg3v,4,3,1,Several days,5415,ok,2b,Feeling hopeless
+7v1pxg3v,5,10,1,Several days,3625,ok,6b,Feeling that you are a failure
+7v1pxg3v,6,12,1,Several days,3540,ok,6d,Feeling that you have let your family down
+7v1pxg3v,7,13,1,Several days,3559,ok,7,Trouble concentrating
+7v1pxg3v,8,8,1,Several days,3543,ok,5b,Overeating
+7v1pxg3v,9,4,3,Nearly every day,5352,ok,3a,Trouble falling or staying asleep
+7v1pxg3v,10,11,1,Several days,3989,ok,6c,Feeling that you have let yourself down
+7v1pxg3v,11,15,0,Not at all,4702,ok,8b,Fidgety or restless
+7v1pxg3v,12,14,0,Not at all,4108,ok,8a,Moving or speaking slowly
+7v1pxg3v,13,6,2,More than half the days,3942,ok,4,Feeling tired or having little energy
+7v1pxg3v,14,2,1,Several days,3951,ok,2a,Feeling down or depressed
+7v1pxg3v,15,7,0,Not at all,3949,ok,5a,Poor appetite
+7v1pxg3v,16,16,0,Not at all,4581,ok,attn_check,I participated in the Olympic Games of 1974.
+pc4u2ske,1,7,0,Not at all,12132,ok,5a,Poor appetite
+pc4u2ske,2,8,1,Several days,4087,ok,5b,Overeating
+pc4u2ske,3,5,1,Several days,4926,ok,3b,Sleeping too much
+pc4u2ske,4,2,1,Several days,3762,ok,2a,Feeling down or depressed
+pc4u2ske,5,9,1,Several days,5932,ok,6a,Feeling bad about yourself
+pc4u2ske,6,12,0,Not at all,3771,ok,6d,Feeling that you have let your family down
+pc4u2ske,7,11,0,Not at all,4382,ok,6c,Feeling that you have let yourself down
+pc4u2ske,8,4,1,Several days,3849,ok,3a,Trouble falling or staying asleep
+pc4u2ske,9,13,2,More than half the days,3674,ok,7,Trouble concentrating
+pc4u2ske,10,6,2,More than half the days,3772,ok,4,Feeling tired or having little energy
+pc4u2ske,11,1,2,More than half the days,4073,ok,1,Little interest or pleasure in doing things
+pc4u2ske,12,14,0,Not at all,3749,ok,8a,Moving or speaking slowly
+pc4u2ske,13,15,2,More than half the days,3681,ok,8b,Fidgety or restless
+pc4u2ske,14,3,0,Not at all,3509,ok,2b,Feeling hopeless
+pc4u2ske,15,10,1,Several days,3537,ok,6b,Feeling that you are a failure
+pc4u2ske,16,16,0,Not at all,3476,ok,attn_check,I participated in the Olympic Games of 1974.
+s2tddlj3,1,2,0,Not at all,6724,ok,2a,Feeling down or depressed
+s2tddlj3,2,3,0,Not at all,4274,ok,2b,Feeling hopeless
+s2tddlj3,3,13,1,Several days,3949,ok,7,Trouble concentrating
+s2tddlj3,4,14,0,Not at all,4167,ok,8a,Moving or speaking slowly
+s2tddlj3,5,6,1,Several days,7695,ok,4,Feeling tired or having little energy
+s2tddlj3,6,8,0,Not at all,4315,ok,5b,Overeating
+s2tddlj3,7,7,0,Not at all,7644,ok,5a,Poor appetite
+s2tddlj3,8,15,0,Not at all,3740,ok,8b,Fidgety or restless
+s2tddlj3,9,1,0,Not at all,3568,ok,1,Little interest or pleasure in doing things
+s2tddlj3,10,9,1,Several days,4490,ok,6a,Feeling bad about yourself
+s2tddlj3,11,10,1,Several days,3951,ok,6b,Feeling that you are a failure
+s2tddlj3,12,11,0,Not at all,6010,ok,6c,Feeling that you have let yourself down
+s2tddlj3,13,4,0,Not at all,3844,ok,3a,Trouble falling or staying asleep
+s2tddlj3,14,5,0,Not at all,3864,ok,3b,Sleeping too much
+s2tddlj3,15,12,1,Several days,3884,ok,6d,Feeling that you have let your family down
+s2tddlj3,16,16,0,Not at all,6827,ok,attn_check,I participated in the Olympic Games of 1974.
