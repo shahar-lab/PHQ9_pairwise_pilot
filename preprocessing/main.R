@@ -18,9 +18,12 @@ output_dir    <- file.path(project_root, "preprocessing", "output")
 #### EXECUTE PIPELINE ####
 
 source(file.path(code_dir, "converting_to_data_raw.R"))
+source(file.path(code_dir, "build_demographics_raw.R"))
+source(file.path(code_dir, "extract_feedback.R"))
 source(file.path(code_dir, "build_item_lookup.R"))
 source(file.path(code_dir, "converting_likert_pairwise.R"))
 source(file.path(code_dir, "qc_report_fn.R"))
 source(file.path(code_dir, "qc_report_raw.R"))
 source(file.path(code_dir, "filter_bad_trials.R"))
+source(file.path(code_dir, "filter_demographics.R"))
 source(file.path(code_dir, "qc_report_processed.R"))

@@ -4,7 +4,7 @@ likert <- read_csv(file.path(raw_dir, "likert.csv"), show_col_types = FALSE)
 pairwise <- read_csv(file.path(raw_dir, "pairwise.csv"), show_col_types = FALSE)
 
 #### PARTICIPANT-LEVEL EXCLUSION ####
-# Excluded if: any window abort (likert or pairwise), or >10 skipped pairwise trials
+# Excluded if: 2 or more window aborts (likert or pairwise)
 
 window_aborts <- bind_rows(
   likert |> select(participant_id, window_status),
@@ -20,7 +20,7 @@ skip_counts <- pairwise |>
 participant_exclusion <- window_aborts |>
   left_join(skip_counts, by = "participant_id") |>
   mutate(
-    excluded = n_window_aborted > 0 | n_skipped > 10
+    excluded = n_window_aborted >= 2
   )
 
 excluded_participants <- participant_exclusion |>
@@ -33,13 +33,13 @@ if (length(excluded_participants) > 0) {
   print(participant_exclusion |> filter(excluded))
 }
 
-#### APPLY EXCLUSION AND DROP SKIPPED TRIALS ####
+#### APPLY PARTICIPANT EXCLUSION ####
 
 likert_processed <- likert |>
   filter(!participant_id %in% excluded_participants)
 
 pairwise_processed <- pairwise |>
-  filter(!participant_id %in% excluded_participants, !skipped)
+  filter(!participant_id %in% excluded_participants)
 
 cat("likert:   ", nrow(likert), "->", nrow(likert_processed),
     "rows (", nrow(likert) - nrow(likert_processed), "removed )\n")
